@@ -75,7 +75,7 @@ services:
     command: -f /mnt/locust/locustfile.py
 ```
 
-Each one of the four servers that handle predictions need to be linked to the locust service so that you can perform the load test. Notice that the the servers that support batching have identical information except for the name of the service. 
+Each one of the four servers that handle predictions need to be linked to the locust service so that you can perform the load test. Notice that the servers that support batching have identical information except for the name of the service. 
 
 The locust service has some more stuff going on but at this point you have already seen how they work:
 
